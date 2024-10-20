@@ -12,8 +12,8 @@ Visual Studio Code (VS Code) or any preferred Python IDE.
 
 Step 2: Install Required Python Packages
 Open your command prompt(cmd) and run the following commands to install the required Python packages:
-bash pip install pyserial
-bash pip install pyautogu
+- pip install pyserial
+- pip install pyautogu
 
 Step 3: Upload the Arduino Code to the ESP32
 Open the Arduino IDE.
