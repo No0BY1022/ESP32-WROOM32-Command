@@ -46,3 +46,29 @@ Close Other Applications: Ensure that no other applications (like the Arduino ID
 
 Step 7: Test the Buttons
 Press the buttons connected to the ESP32. Each button press should trigger the corresponding keyboard action as defined in your Python script.
+
+
+
+Setting Up ESP32 Button Command
+
+Step 1: Gather Materials
+ESP32-Wroom32 development board
+Three push buttons
+Three 10k ohm resistors
+Breadboard and jumper wires
+USB cable for connecting the ESP32 to your computer
+
+Step 2: Wiring the Buttons with Pull-Up Resistors
+Connect the Buttons:
+- Button 1 (to GPIO 12):
+Connect one terminal of Button 1 to GPIO 12 on the ESP32.
+Connect the other terminal to GND.
+Connect a 10k ohm resistor between GPIO 12 .
+- Button 2 (to GPIO 13):
+Connect one terminal of Button 2 to GPIO 13 on the ESP32.
+Connect the other terminal to GND.
+Connect a 10k ohm resistor between GPIO 13.
+- Button 3 (to GPIO 14):
+Connect one terminal of Button 3 to GPIO 14 on the ESP32.
+Connect the other terminal to GND.
+Connect a 10k ohm resistor between GPIO 14.
